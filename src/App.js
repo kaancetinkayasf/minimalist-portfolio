@@ -35,41 +35,49 @@ class App extends React.Component {
 
   render(){
     return (
-      <div className="content">
-        <div className="header">
-        <div className="projects">
-         <button onClick={this.goToProjects}>Projects</button> 
-          </div>
-        <div className="contact">
-         <button onClick={this.goToContact}>Contact</button> 
-          </div>
+      <main>
+        <Helmet>
+        <title>My app</title>
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+        <meta name="viewport" content="width=device-width" />
+      </Helmet>  
+        <div className="content">
+      <div className="header">
+      <div className="projects">
+       <button onClick={this.goToProjects}>Projects</button> 
         </div>
-        <div className="textarea">
-        <div className="hitext">
-          <AnimatedTyping message="Hi I'm Ali Emre"/>    
-        </div>
-        <div className="infotext">
-          <AnimatedTyping message="I'm a 2D & 3D Designer"/>    
-        </div>
-        </div>
-        <div className="projects-header"><h1>PROJECTS</h1></div>
-        <div className="projects-content">
-          <Square image={chess} title="Chess" url="https://www.artstation.com/artwork/w6Nzm5"/>
-          <Square image={ak47} title="AK-47" url="https://www.artstation.com/artwork/kDwbbd"/>
-          <Square image={lego} title="Lego" url="https://www.artstation.com/artwork/481QVW"/>
-          <Square image={wick} title="John Wick Illustration" url="https://www.artstation.com/artwork/QrEXqx" />
-          <Square image={bowling} title="3D Bowling Scene" url="https://www.artstation.com/artwork/L3Req5"/>
-
-
-        </div>
-        <div className="contact-info-header"><h1>CONTACT</h1></div>
-        <div className="contact-info">
-          <h2>aliemre3883gs1@gmail.com</h2>
-          <CopyToClipboard text="aliemre3883gs1@gmail.com">
-          <button>Copy</button>
-          </CopyToClipboard>
+      <div className="contact">
+       <button onClick={this.goToContact}>Contact</button> 
         </div>
       </div>
+      <div className="textarea">
+      <div className="hitext">
+        <AnimatedTyping message="Hi I'm Ali Emre"/>    
+      </div>
+      <div className="infotext">
+        <AnimatedTyping message="I'm a 2D & 3D Designer"/>    
+      </div>
+      </div>
+      <div className="projects-header"><h1>PROJECTS</h1></div>
+      <div className="projects-content">
+        <Square image={chess} title="Chess" url="https://www.artstation.com/artwork/w6Nzm5"/>
+        <Square image={ak47} title="AK-47" url="https://www.artstation.com/artwork/kDwbbd"/>
+        <Square image={lego} title="Lego" url="https://www.artstation.com/artwork/481QVW"/>
+        <Square image={wick} title="John Wick Illustration" url="https://www.artstation.com/artwork/QrEXqx" />
+        <Square image={bowling} title="3D Bowling Scene" url="https://www.artstation.com/artwork/L3Req5"/>
+
+
+      </div>
+      <div className="contact-info-header"><h1>CONTACT</h1></div>
+      <div className="contact-info">
+        <h2>aliemre3883gs1@gmail.com</h2>
+        <CopyToClipboard text="aliemre3883gs1@gmail.com">
+        <button>Copy</button>
+        </CopyToClipboard>
+      </div>
+    </div>
+    </main>
+
     );
   }
   

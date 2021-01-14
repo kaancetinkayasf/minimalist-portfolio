@@ -9,8 +9,8 @@ const [height,setHeight] = useState(0);
         setWidth(300);
         setHeight(300);
     }else{
-        setWidth(1400);
-        setHeight(800);
+        setWidth(1000);
+        setHeight(600);
     }
 }
         
