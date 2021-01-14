@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/minimalist-portfolio/static/css/main.c61cb6cc.chunk.css",
+    "main.js": "/minimalist-portfolio/static/js/main.b00b58bf.chunk.js",
+    "main.js.map": "/minimalist-portfolio/static/js/main.b00b58bf.chunk.js.map",
+    "runtime-main.js": "/minimalist-portfolio/static/js/runtime-main.ecda0315.js",
+    "runtime-main.js.map": "/minimalist-portfolio/static/js/runtime-main.ecda0315.js.map",
+    "static/js/2.e75bc18d.chunk.js": "/minimalist-portfolio/static/js/2.e75bc18d.chunk.js",
+    "static/js/2.e75bc18d.chunk.js.map": "/minimalist-portfolio/static/js/2.e75bc18d.chunk.js.map",
+    "index.html": "/minimalist-portfolio/index.html",
+    "static/css/main.c61cb6cc.chunk.css.map": "/minimalist-portfolio/static/css/main.c61cb6cc.chunk.css.map",
+    "static/js/2.e75bc18d.chunk.js.LICENSE.txt": "/minimalist-portfolio/static/js/2.e75bc18d.chunk.js.LICENSE.txt",
+    "static/media/ak47.6a6764d7.jpg": "/minimalist-portfolio/static/media/ak47.6a6764d7.jpg",
+    "static/media/bowling.7bee82d4.jpg": "/minimalist-portfolio/static/media/bowling.7bee82d4.jpg",
+    "static/media/chess.8408db7b.jpg": "/minimalist-portfolio/static/media/chess.8408db7b.jpg",
+    "static/media/lego.f4c0287e.jpg": "/minimalist-portfolio/static/media/lego.f4c0287e.jpg",
+    "static/media/wick.0ad8d8c4.jpg": "/minimalist-portfolio/static/media/wick.0ad8d8c4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ecda0315.js",
+    "static/js/2.e75bc18d.chunk.js",
+    "static/css/main.c61cb6cc.chunk.css",
+    "static/js/main.b00b58bf.chunk.js"
+  ]
+}
